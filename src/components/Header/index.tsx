@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { SignInButton } from "./SignInButton";
 
 import { Container, ContainerContent, NavLink } from "./styles";
 
@@ -11,6 +12,8 @@ export const Header = () => {
 					<NavLink className="active">Home</NavLink>
 					<NavLink>Posts</NavLink>
 				</nav>
+
+				<SignInButton />
 			</ContainerContent>
 		</Container>
 	);
