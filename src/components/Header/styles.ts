@@ -29,6 +29,10 @@ export const ContainerContent = styled.header`
 		left: 0;
 		background: var(--yellow-500);
 	}
+
+	button {
+		margin-left: auto;
+	}
 `
 
 export const NavLink = styled.a`
