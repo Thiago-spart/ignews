@@ -2,6 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 
 import { Container, Hero } from "../../styles/home";
+import { SubscribeButton } from "../components/SubscribeButton";
 
 export default function Home() {
 	return (
@@ -21,16 +22,15 @@ export default function Home() {
 						<br />
 						<span>for $9.90 month</span>
 					</p>
+					<SubscribeButton />
 				</Hero>
 
-				<div>
-					<Image
-						src="/images/avatar.svg"
-						alt="Girl coding"
-						width="500px"
-						height="500px"
-					/>
-				</div>
+				<Image
+					src="/images/avatar.svg"
+					alt="Girl coding"
+					width="500px"
+					height="500px"
+				/>
 			</Container>
 		</>
 	);
