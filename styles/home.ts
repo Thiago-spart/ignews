@@ -41,4 +41,8 @@ export const Hero = styled.section`
 		}
 	}
 
+	button {
+		margin-top: 2.5rem;
+	}
+
 `
