@@ -1,5 +1,9 @@
 import { Button } from "./styles";
 
-export const SubscribeButton = () => {
+interface SubscribeButtonProps {
+	priceId: string;
+}
+
+export const SubscribeButton = ({ priceId }: SubscribeButtonProps) => {
 	return <Button type="button">Subscribe now</Button>;
 };
